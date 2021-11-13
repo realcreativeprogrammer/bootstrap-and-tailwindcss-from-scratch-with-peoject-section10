@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Email
+    </title>
+    <style>
+
+    </style>
+</head>
+<body class="text-white bg-gray-700 h-screen">
+    
+    <!-- head part -->
+    <div class="grid grid-cols-6 h-12">
+        <!-- Logo -->
+        <a class="flex flex-row ml-4 mr-auto items-center">
+            <div class="mr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+                  </svg>
+            </div>
+            <div class="hidden md:flex">
+                Simple Inbox
+            </div>
+        </a>
+         <!-- Logo -->
+
+         <!-- Search form -->
+         <div class="col-span-5 flex flex-row mr-4 items-center">
+             <div class="mr-auto my-auto flex">
+                <input type="text" placeholder="Search" class="shadow border w-full py-2 px-3 text-gray-700 focus:shadow-lg focus:outline-none focus:bg-gray-200 hover:bg-gray-200">
+                <button class="bg-blue-500 text-white hover:bg-blue-700 font-bold py-2 px-4 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                </button>
+            </div>
+         <!-- Search form -->
+
+         <!-- logout and img -->
+            <div>
+                <img src="./images.jpg" class="inline-block w-8 h-8 rounded-full object-cover border border-white ml-2">
+                <a href="login.html">LogOut</a>
+            </div>
+          <!-- logout and img -->
+
+          <!-- mobile-btn -->
+          <div class="lg:hidden ml-3 flex items-center">
+              <button class="mobile-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+              </button>
+          </div>
+          <!-- mobile-btn -->
+         </div>
+    </div>
+    <!-- head part -->
+
+    <!-- body part -->
+    <div class="grid grid-cols-6 h-5/6 bg-yellow-200">
+        <!-- menu part -->
+        <div class="hidden lg:block bg-gray-700 border border-gray-400">
+            <div class="my-2">
+                <div class="flex flex-col">
+                    <!-- send email -->
+                    <div class="flex flex-row mb-3 mx-4">
+                        <a href="sendemail.html" class="w-full bg-white text-black h-12 pt-3 hover:bg-gray-300 rounded-full text-center my-auto">
+                            Send Email
+                        </a>
+                    </div>
+                     <!-- send email -->
+
+                     <!-- inbox -->
+                     <a href="inbox.html" class="flex flex-row  h-10 px-4 rounded-t-sm items-center border-b-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            Inbox
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- inbox -->
+
+                     <!-- send -->
+                     <a href="send.html" class="flex flex-row   h-10 px-4 rounded-t-sm items-center border-b-2 hover:text-black hover:bg-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            Send
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- send -->
+
+                      <!-- All -->
+                      <a href="all.html" class="flex flex-row text-black bg-gray-300  h-10 px-4 rounded-t-sm items-center border-b-2 hover:text-black hover:bg-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            All
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- send -->                   
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- menu part -->
+
+        <!-- mobile menu -->
+        <div class="col-span-6 hidden lg:hidden bg-gray-700 border border-gray-400 justify-center items-center flex-col mobile-menu">
+
+                        <!-- send email -->
+                        <div class="flex flex-row mb-3 mx-4 mt-2">
+                            <a href="sendemail.html" class="w-full bg-white text-black h-12 pt-3 hover:bg-gray-300 rounded-full text-center my-auto">
+                                Send Email
+                            </a>
+                        </div>
+                         <!-- send email -->
+                     <!-- inbox -->
+                     <a href="inbox.html" class="flex flex-row  h-10 px-4 rounded-t-sm items-center border-b-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            Inbox
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- inbox -->
+
+                     <!-- send -->
+                     <a href="send.html" class="flex flex-row  h-10 px-4 rounded-t-sm items-center border-b-2 hover:text-black hover:bg-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            Send
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- send -->
+
+                      <!-- All -->
+                      <a href="all.html" class="flex flex-row text-black bg-gray-300  h-10 px-4 rounded-t-sm items-center border-b-2 hover:text-black hover:bg-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            All
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- send -->   
+        </div>
+       <!-- mobile menu -->
+
+       <!-- body content -->
+        <div class="col-span-6 lg:col-span-5 bg-gray-700 border border-gra-400 ">
+            <div class="my-2">
+                <div class="flex flex-col">
+                    <div class="flex flex-row items-center mt-3">
+                        <img src="./images.jpg" class="ml-2 inline-block w-8 h-8 rounded-full object-cover border border-white"> 
+                        <span class="ml-4">Sender Name</span>
+                        <span class="ml-4 font-thin text-sm">Senderemail@Exmaple.expamle</span>
+                        <span class="ml-auto mr-4">11/11/2021</span>
+                    </div>
+
+                    <div class="py-4 px-6">
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris pharetra et ultrices neque ornare aenean. Sed elementum tempus egestas sed sed risus pretium quam. At quis risus sed vulputate odio ut enim blandit volutpat. Sed nisi lacus sed viverra tellus in hac. Eget arcu dictum varius duis. Gravida arcu ac tortor dignissim convallis aenean. Dui nunc mattis enim ut tellus elementum sagittis vitae et. Pellentesque habitant morbi tristique senectus et. Amet mattis vulputate enim nulla aliquet porttitor. In metus vulputate eu scelerisque felis. Rhoncus dolor purus non enim praesent. Magna etiam tempor orci eu. Et sollicitudin ac orci phasellus egestas tellus. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Vel risus commodo viverra maecenas accumsan lacus vel. Lacus sed viverra tellus in hac habitasse platea dictumst vestibulum. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Condimentum lacinia quis vel eros donec ac odio tempor. Placerat in egestas erat imperdiet sed. Adipiscing diam donec adipiscing tristique. Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Aenean pharetra magna ac placerat vestibulum. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin. Ut venenatis tellus in metus vulputate eu scelerisque felis. Suspendisse in est ante in nibh mauris cursus. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Tortor aliquam nulla facilisi cras fermentum odio. Imperdiet massa tincidunt nunc pulvinar sapien et ligula. Sit amet cursus sit amet dictum sit. Mauris pharetra et ultrices neque. Id interdum velit laoreet id donec ultrices tincidunt arcu. Est velit egestas dui id ornare arcu. Lacus vestibulum sed arcu non odio. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Aliquam ut porttitor leo a diam sollicitudin tempor id. At urna condimentum mattis pellentesque id nibh tortor id. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris pharetra et ultrices neque ornare aenean. Sed elementum tempus egestas sed sed risus pretium quam. At quis risus sed vulputate odio ut enim blandit volutpat. Sed nisi lacus sed viverra tellus in hac. Eget arcu dictum varius duis. Gravida arcu ac tortor dignissim convallis aenean. Dui nunc mattis enim ut tellus elementum sagittis vitae et. Pellentesque habitant morbi tristique senectus et. Amet mattis vulputate enim nulla aliquet porttitor. In metus vulputate eu scelerisque felis. Rhoncus dolor purus non enim praesent. Magna etiam tempor orci eu. Et sollicitudin ac orci phasellus egestas tellus. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Vel risus commodo viverra maecenas accumsan lacus vel. Lacus sed viverra tellus in hac habitasse platea dictumst vestibulum. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Condimentum lacinia quis vel eros donec ac odio tempor. Placerat in egestas erat imperdiet sed. Adipiscing diam donec adipiscing tristique. Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Aenean pharetra magna ac placerat vestibulum. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin. Ut venenatis tellus in metus vulputate eu scelerisque felis. Suspendisse in est ante
+                        </span>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+       <!-- body content -->
+
+
+    </div>
+    <!-- body part -->
+
+</body>
+<script>
+    const btn=document.querySelector(".mobile-btn");
+    const menu=document.querySelector(".mobile-menu");
+    btn.addEventListener('click',() =>{
+        menu.classList.toggle('hidden');
+    });
+
+</script>
+</html>

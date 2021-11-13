@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Send Email
+    </title>
+    <style>
+
+    </style>
+</head>
+<body class="text-white bg-gray-700 h-screen">
+    
+    <!-- head part -->
+    <div class="grid grid-cols-6 h-12">
+        <!-- Logo -->
+        <a class="flex flex-row ml-4 mr-auto items-center">
+            <div class="mr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+                  </svg>
+            </div>
+            <div class="hidden md:flex">
+                Simple Inbox
+            </div>
+        </a>
+         <!-- Logo -->
+
+         <!-- Search form -->
+         <div class="col-span-5 flex flex-row mr-4 items-center">
+             <div class="mr-auto my-auto flex">
+                <input type="text" placeholder="Search" class="shadow border w-full py-2 px-3 text-gray-700 focus:shadow-lg focus:outline-none focus:bg-gray-200 hover:bg-gray-200">
+                <button class="bg-blue-500 text-white hover:bg-blue-700 font-bold py-2 px-4 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                </button>
+            </div>
+         <!-- Search form -->
+
+         <!-- logout and img -->
+            <div>
+                <img src="./images.jpg" class="inline-block w-8 h-8 rounded-full object-cover border border-white ml-2">
+                <a href="login.html">LogOut</a>
+            </div>
+          <!-- logout and img -->
+
+          <!-- mobile-btn -->
+          <div class="lg:hidden ml-3 flex items-center">
+              <button class="mobile-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+              </button>
+          </div>
+          <!-- mobile-btn -->
+         </div>
+    </div>
+    <!-- head part -->
+
+    <!-- body part -->
+    <div class="grid grid-cols-6 h-5/6 bg-yellow-200">
+        <!-- menu part -->
+        <div class="hidden lg:block bg-gray-700 border border-gray-400">
+            <div class="my-2">
+                <div class="flex flex-col">
+                    <!-- send email -->
+                    <div class="flex flex-row mb-3 mx-4">
+                        <a href="sendemail.html" class="w-full bg-white text-black h-12 pt-3 hover:bg-gray-300 rounded-full text-center my-auto">
+                            Send Email
+                        </a>
+                    </div>
+                     <!-- send email -->
+
+                     <!-- inbox -->
+                     <a href="inbox.html" class="flex flex-row  h-10 px-4 rounded-t-sm items-center border-b-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            Inbox
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- inbox -->
+
+                     <!-- send -->
+                     <a href="send.html" class="flex flex-row   h-10 px-4 rounded-t-sm items-center border-b-2 hover:text-black hover:bg-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            Send
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- send -->
+
+                      <!-- All -->
+                      <a href="all.html" class="flex flex-row text-black bg-gray-300  h-10 px-4 rounded-t-sm items-center border-b-2 hover:text-black hover:bg-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            All
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- send -->                   
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- menu part -->
+
+        <!-- mobile menu -->
+        <div class="col-span-6 hidden lg:hidden bg-gray-700 border border-gray-400 justify-center items-center flex-col mobile-menu">
+
+                        <!-- send email -->
+                        <div class="flex flex-row mb-3 mx-4 mt-2">
+                            <a href="sendemail.html" class="w-full bg-white text-black h-12 pt-3 hover:bg-gray-300 rounded-full text-center my-auto">
+                                Send Email
+                            </a>
+                        </div>
+                         <!-- send email -->
+                     <!-- inbox -->
+                     <a href="inbox.html" class="flex flex-row  h-10 px-4 rounded-t-sm items-center border-b-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            Inbox
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- inbox -->
+
+                     <!-- send -->
+                     <a href="send.html" class="flex flex-row  h-10 px-4 rounded-t-sm items-center border-b-2 hover:text-black hover:bg-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            Send
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- send -->
+
+                      <!-- All -->
+                      <a href="all.html" class="flex flex-row text-black bg-gray-300  h-10 px-4 rounded-t-sm items-center border-b-2 hover:text-black hover:bg-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg> 
+                          <!-- text -->
+                          <div class="ml-4 mr-auto overflow-auto">
+                            All
+                          </div>
+                         <!-- text -->
+
+                         <!-- badge -->
+                         <div class="ml-auto">
+                             <span class="inline-flex items-center px-2 py-1 bg-red-600 text-xs font-bold text-red-100 rounded-full">
+                                99+
+                             </span>
+
+                         </div>
+                         <!-- badge -->
+                     </a>
+                     <!-- send -->   
+        </div>
+       <!-- mobile menu -->
+
+       <!-- body content -->
+        <div class="col-span-6 lg:col-span-5 bg-gray-700 border border-gra-400 ">
+            <div class="my-2">
+                <div class="flex flex-col justify-center items-center">
+                    <div class="text-2xl mt-4">
+                        Send Email
+                    </div>
+                    <form class="bg-gray-500 px-10 py-2 w-3/4" action="send.html">
+                        <div class="mt-2">
+                            <label class="" for="Subject">Subject</label>
+                            <input type="text" placeholder="Subject" id='Subject' class="w-full h-10 px-3 mt-2 text-gray-600 placeholder-gray-600 border focus:shadow-lg">
+                        </div>
+                        <div class="mt-6">
+                            <label class="" for="Content">Content</label>
+                            <textarea for="Content" placeholder="Content" class="w-full h-40 px-3 py-2 mt-2 text-gray-700 placeholder-gray-600 focus:shadow-lg"></textarea>
+                        </div>
+                        <button class="bg-indigo-700 text-indigo-100 h-12 w-full px-6 mt-4 text-lg transition-all duration-200 hover:bg-indigo-800 focus:shadow-lg">
+                            Send Email
+                        </button>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+       <!-- body content -->
+
+
+    </div>
+    <!-- body part -->
+
+</body>
+<script>
+    const btn=document.querySelector(".mobile-btn");
+    const menu=document.querySelector(".mobile-menu");
+    btn.addEventListener('click',() =>{
+        menu.classList.toggle('hidden');
+    });
+
+</script>
+</html>
